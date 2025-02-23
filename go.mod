@@ -9,7 +9,7 @@ replace (
 	github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.16.0
 	github.com/prometheus/client_model => github.com/prometheus/client_model v0.4.0
 	github.com/prometheus/common => github.com/prometheus/common v0.44.0
-	github.com/rancher/rke => github.com/rancher/rke v1.6.4
+	github.com/rancher/rke => github.com/rancher/rke v1.7.2
 	k8s.io/api => k8s.io/api v0.30.1
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.30.1
 	k8s.io/apimachinery => k8s.io/apimachinery v0.30.1
@@ -48,7 +48,7 @@ require (
 	github.com/rancher/dynamiclistener v0.6.0
 	github.com/rancher/lasso v0.2.0
 	github.com/rancher/rancher/pkg/apis v0.0.0-20250121135736-f569628e5282
-	github.com/rancher/rke v1.6.6-rc.1
+	github.com/rancher/rke v1.7.2
 	github.com/rancher/wrangler/v3 v3.0.1
 	github.com/robfig/cron v1.2.0
 	github.com/sirupsen/logrus v1.9.3
@@ -61,8 +61,8 @@ require (
 	k8s.io/apimachinery v0.31.1
 	k8s.io/apiserver v0.31.1
 	k8s.io/client-go v12.0.0+incompatible
-	k8s.io/kubernetes v1.30.1
-	k8s.io/pod-security-admission v0.30.1
+	k8s.io/kubernetes v1.31.1
+	k8s.io/pod-security-admission v0.31.1
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
 	sigs.k8s.io/controller-runtime v0.19.0
 	sigs.k8s.io/yaml v1.4.0
@@ -119,13 +119,13 @@ require (
 	github.com/rancher/eks-operator v1.9.6 // indirect
 	github.com/rancher/fleet/pkg/apis v0.10.8 // indirect
 	github.com/rancher/gke-operator v1.9.6 // indirect
-	github.com/rancher/norman v0.0.0-20240708202514-a0127673d1b9 // indirect
+	github.com/rancher/norman v0.0.0-20241001183610-78a520c160ab // indirect
 	github.com/spf13/cobra v1.8.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
-	go.etcd.io/etcd/api/v3 v3.5.13 // indirect
-	go.etcd.io/etcd/client/pkg/v3 v3.5.13 // indirect
-	go.etcd.io/etcd/client/v3 v3.5.13 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.14 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.5.14 // indirect
+	go.etcd.io/etcd/client/v3 v3.5.14 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.46.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.53.0 // indirect
 	go.opentelemetry.io/otel v1.28.0 // indirect
